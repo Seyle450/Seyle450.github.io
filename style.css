@@ -1,0 +1,177 @@
+body {
+    user-select: none;
+    background-color: rgb(7, 7, 7);
+}
+a {
+    font-size: 3vmin;
+    width: min-content;
+    display: inline;
+
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 640;
+    color: rgb(182, 182, 182);
+
+    text-decoration: none;
+}
+
+
+
+.show {
+    filter: blur(0%);
+    opacity: 1;
+    transition: all 1s;
+    
+}
+
+
+
+Header {
+    backdrop-filter: blur(10px);
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100vw;
+    height: 2.8vh;
+    background-color: rgba(108, 108, 108, 0.543);
+    padding-block: 1vh;
+    padding-bottom: 2vh;
+    padding-left: 1vh;
+
+}
+
+
+h1 {
+    font-size: 3vmin;
+    width: min-content;
+    margin-inline: 1vw;
+    display: inline;
+
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 640;
+    color: rgb(101, 101, 101);
+
+}
+
+h2 {
+    position: relative;
+    margin-top: 30vh;
+    text-align: center;
+    width: 100%;
+    font-size: 20vmin;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 600;
+    color: rgb(101, 101, 101);
+    height: 55vh;
+}
+
+.Menu {
+    background-color: rgba(190, 190, 190, 0.851);
+    height: 6vh;
+    width: 6vh;
+    border-radius: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin: 2vmin;
+    display: none;
+    color: azure;
+
+}
+
+h3 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(80, 80, 80);
+    margin-block: 0.5vh;
+    font-weight: 600;
+    margin-left: 10vh;
+    font-size: 3vh;
+}
+
+.Screen {
+
+        height: 70vh;
+        scroll-margin-top: 40vh; /* Höhe des Headers */
+
+    
+    
+}
+
+.Python {
+    background-color: grey;
+    height: 30vh;
+    width: 30vh;
+    border-radius: 100%;
+    margin-left: 16vw;
+    
+}
+.HTML {
+    background-color: grey;
+    height: 30vh;
+    width: 30vh;
+    border-radius: 100%;
+    
+    margin-left: auto;
+    margin-right: 16vw;
+}
+.Project {
+    display: flex;
+    text-align: center;
+}
+
+p {
+    text-align: center;
+    width: 80vw;
+    margin-inline: auto;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(80, 80, 80);
+    font-weight: 500;
+}
+
+.Kontakt {
+    background-color: rgba(128, 128, 128, 0.398);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(152, 152, 152);
+    font-weight: 500;
+    width: 55vw;
+    padding-block: 5vh;
+    padding-left: 4vw;
+    border-radius: 3vw;
+    margin-inline: auto;
+    margin-bottom: 30vh;
+    
+}
+
+.line {
+    margin-right: auto;
+    background-color: rgb(43, 43, 43);
+    height: 0.2vh;
+    width: 50vw;
+    margin-block: 3vh;
+}
+
+h4 {
+    margin-block: 1vh;
+}
+
+.show {
+    filter: blur(0%);
+    opacity: 1;
+    transition: all 1s;
+    
+}
+.hide {
+    filter: blur(100%);
+    opacity: 0;
+    transition: all 1s;
+    margin-left: -400px;
+    margin-right: auto;
+}
+
+.Py {
+    height: 30vh;
+}
+.Htm {
+    height: 15vh;
+
+    margin-top: 7.5vh;
+}
