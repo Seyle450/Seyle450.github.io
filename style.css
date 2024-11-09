@@ -14,16 +14,12 @@ a {
     text-decoration: none;
 }
 
-
-
 .show {
     filter: blur(0%);
     opacity: 1;
     transition: all 1s;
     
 }
-
-
 
 Header {
     backdrop-filter: blur(10px);
@@ -38,7 +34,6 @@ Header {
     padding-left: 1vh;
 
 }
-
 
 h1 {
     font-size: 3vmin;
