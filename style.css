@@ -201,12 +201,12 @@ h4 {
         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
         color: rgb(152, 152, 152);
         font-weight: 500;
-        width: 100vw;
+        width: 100%;
         left: 0;
         padding-block: 5vh;
         padding-left: 5vw;
         border-radius: 0;
-        
+        box-sizing: border-box;
     }
     .menu { 
         display: block;
