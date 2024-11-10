@@ -189,6 +189,9 @@ h4 {
     a {
         display: block;
     }
+    p {
+        font-size: 15px;
+    }
 
     .Project {
         display:block;
