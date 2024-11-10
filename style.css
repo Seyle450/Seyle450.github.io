@@ -101,6 +101,7 @@ h3 {
     margin-right: 16vw;
 }
 .Project {
+    margin-top: 40vh;
     display: flex;
     text-align: center;
 }
