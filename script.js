@@ -15,3 +15,30 @@ const observer = new IntersectionObserver(entries => {
 myElements.forEach(element => {
   observer.observe(element);
 });
+function head1() {
+  var element = document.getElementById("header");
+  element.classList.add("only_show");
+
+  var element = document.getElementById("menu2");
+  element.classList.remove("only_hide");
+  element.classList.add("only_show");
+
+  var element = document.getElementById("menu1");
+  element.classList.add("only_hide");
+  element.classList.remove("only_show");
+
+}
+function head2() {
+  var element = document.getElementById("header");
+  element.classList.remove("only_show");
+
+  var element = document.getElementById("menu1");
+  element.classList.remove("only_hide");
+  element.classList.add("only_show");
+
+  var element = document.getElementById("menu2");
+  element.classList.add("only_hide");
+  element.classList.remove("only_show");
+  
+}
+
