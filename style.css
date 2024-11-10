@@ -2,6 +2,8 @@
 body {
     user-select: none;
     background-color: rgb(31, 31, 31);
+    overflow-x: hidden;
+
 }
 .menu {
     display: none;
@@ -173,7 +175,7 @@ h4 {
         transition: 1s ease;
         display: none;
         height: 100vh;
-        padding-top: 8vh;
+        padding-top: 20vh;
         padding-left: 5vw;
     }
     a {
@@ -202,9 +204,8 @@ h4 {
         width: 100vw;
         left: 0;
         padding-block: 5vh;
-        padding-left: 4vw;
+        padding-left: 5vw;
         border-radius: 0;
-        margin-bottom: 30vh;
         
     }
     .menu { 
