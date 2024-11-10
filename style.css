@@ -192,16 +192,17 @@ h4 {
     }
 
     .Kontakt {
+        position: absolute;
         font-size: 4vw;
-        background-color: rgba(128, 128, 128, 0.398);
+        background-color: rgba(125, 124, 124, 0.181);
         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
         color: rgb(152, 152, 152);
         font-weight: 500;
-        width: 55vw;
+        width: 100vw;
+        left: 0;
         padding-block: 5vh;
         padding-left: 4vw;
-        border-radius: 3vw;
-        margin-inline: auto;
+        border-radius: 0;
         margin-bottom: 30vh;
         
     }
