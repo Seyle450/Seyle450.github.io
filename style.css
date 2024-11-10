@@ -71,7 +71,7 @@ h3 {
     margin-block: 0.5vh;
     font-weight: 600;
     margin-left: 10vmin;
-    font-size: 20px;
+    font-size: 6vmin;
 }
 
 .Screen {
@@ -126,6 +126,7 @@ p {
     border-radius: 3vw;
     margin-inline: auto;
     margin-bottom: 35vh;
+    font-size: 3vmin;
     
 }
 
@@ -177,6 +178,9 @@ h4 {
         height: 100vh;
         padding-top: 20vh;
         padding-left: 5vw;
+    }
+    h3 {
+        font-size: 20px;
     }
     a {
         display: block;
