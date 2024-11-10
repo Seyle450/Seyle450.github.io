@@ -1,0 +1,100 @@
+body {
+    background-color: #DEBDA4;
+    font-family: Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+    
+    -webkit-user-select: none; /* Safari */
+    -ms-user-select: none; /* IE 10 and IE 11 */
+    user-select: none; /* Standard syntax */
+    
+}
+
+h1 {
+    color: #6E0E0E;
+    text-align: center;
+    font-family: Georgia, Times, 'Times New Roman', serif;
+    font-size: 80px;
+    margin: 10px;
+}
+
+hr {
+    color: gray;
+    width: 40%;
+    margin-bottom: 20px;
+}
+
+
+
+button {
+    border-color: #6E0E0E;
+    border-style: solid;
+}
+
+
+#Tokens {
+    display: flex;
+    font-family: Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+} 
+.button {
+    color: #6E0E0E;
+    background-color: #BB9277;
+    border-color: #6E0E0E;
+    border-style: solid;
+    font-family: Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+    font-size: 20px;
+    width: 100%;
+    height: 40px;
+    cursor:pointer;
+}
+.link {
+    width: 20%;
+    margin: auto;
+}
+.link2 {
+    width: 30%;
+    margin: auto;
+    height: 10vh;
+    margin-block: 5px;
+}
+.token {
+    color: #6E0E0E;
+    font-size: 20px;
+    font-weight: bold;
+    margin-inline: 50px;
+}
+
+
+
+
+
+#games {
+    margin-top: 50px;
+     display: flex;
+}
+#games2 {
+    display: flex;
+}
+.c1 {
+    color: #6E0E0E;
+    background-color: #BB9277;
+    width: 100%;
+    height: 100%;
+    margin-block: 5px;
+    font-family: Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+    font-size: 20px;
+    cursor:pointer;
+}
+.c2 {
+    color: #6E0E0E;
+    background-color: #A77B5F;
+    width: 100%;
+    height: 100%;
+    margin-block: 5px;
+    font-family: Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+    font-size: 20px;
+    cursor:pointer;
+}
