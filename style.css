@@ -71,7 +71,7 @@ h3 {
     margin-block: 0.5vh;
     font-weight: 600;
     margin-left: 10vmin;
-    font-size: 4.5vmin;
+    font-size: 20px;
 }
 
 .Screen {
@@ -196,7 +196,7 @@ h4 {
 
     .Kontakt {
         position: absolute;
-        font-size: 4vw;
+        font-size: 15px;
         background-color: rgba(125, 124, 124, 0.181);
         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
         color: rgb(152, 152, 152);
