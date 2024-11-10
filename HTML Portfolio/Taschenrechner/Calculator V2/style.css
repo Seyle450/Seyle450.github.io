@@ -16,7 +16,7 @@ body {
     margin-block: auto;
     margin-top:30vmin;
     margin-bottom: 6vmin;
-    line-height: 20vmin;
+    font-size: 17.5vmin;
     margin-inline: 3vmin;
     max-width: 90vmin;
 }
@@ -91,4 +91,40 @@ button:active {
 
 .row {
     text-align: center;
+}
+
+@media (min-width:400px){
+    .screen {
+    color: rgb(232, 232, 232);
+    text-align: right;
+    overflow:auto;
+    overflow-y: hidden;
+    margin-block: auto;
+    margin-top:120px;
+    margin-bottom: 24px;
+    width: 336px;
+    font-size: 95px;
+    margin-inline: auto;
+}
+
+button {
+    border-radius: 5000px;
+    height: 84px;
+    width: 84px;
+    margin: 2px;
+    margin-block: 4px;
+    font-weight: 525;
+    font-size: 32px;
+    background-color: rgb(39, 39, 39);
+    border: 0px;
+    color: whitesmoke;
+    transition: 500ms;
+}
+.bigbutton {
+    width: 168px;
+    height: 84px ;
+    margin: 2.5px;
+    text-align: left;
+    padding-left: 42px;
+}
 }

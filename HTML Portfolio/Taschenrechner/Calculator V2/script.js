@@ -1,34 +1,6 @@
 let number = "0";
-function resize() {
-    const screenElement = document.getElementById("screen");
-    if (number.length === 9){
-        screenElement.style.fontSize = "19vw";
-    }
-    if (number.length === 9){
-        screenElement.style.fontSize = "17.5vw";
-    }
-    if (number.length === 10){
-        screenElement.style.fontSize = "16vw";
-    }
-    if (number.length === 11){
-        screenElement.style.fontSize = "14.5vw";
-    }
-    if (number.length === 12){
-        screenElement.style.fontSize = "13vw";
-    }
-    if (number.length === 13){
-        screenElement.style.fontSize = "12.5vw";
-    }
-    if (number.length > 13){
-        screenElement.style.fontSize = "11vw";
-    }
-    if (number.length < 9){
-        screenElement.style.fontSize = "20vw";
-    }
-}
 
 function updateScreen() {
-    resize()
     document.getElementById("screen").innerHTML = number;
 }
 
