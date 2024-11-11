@@ -91,6 +91,7 @@ h3 {
     margin-left: 16vw;
     
 }
+
 .HTML {
     background-color: grey;
     height: 30vh;
@@ -99,6 +100,10 @@ h3 {
     
     margin-left: auto;
     margin-right: 16vw;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .Project {
     margin-top: 40vh;
@@ -166,8 +171,6 @@ h4 {
 }
 .Htm {
     height: 15vh;
-
-    margin-top: 7.5vh;
 }
 .menu {
     opacity: 0;
