@@ -1,3 +1,59 @@
+.compatible {
+    position: fixed;
+    left: 5%;
+    right: 5%;
+    top: 5%;
+    bottom: 5%;
+    padding: 1rem;
+    background-color: rgb(116, 116, 116);
+    border: 5px solid rgb(59, 59, 59);
+    
+    /* Center content */
+    display: none;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+/* Adjust font size for smaller screens */
+.compatible p {
+    margin: 0;
+    font-size: 1.5rem;
+}
+
+/* Media query for tablets */
+@media (max-width: 768px) {
+    .compatible {
+        left: 5%;
+        right: 5%;
+        top: 5%;
+        bottom: 5%;
+        padding: 0.5rem;
+    }
+
+    .compatible p {
+        font-size: 1.25rem;
+    }
+}
+
+/* Media query for mobile screens */
+@media (max-width: 480px) {
+    .compatible {
+        left: 2%;
+        right: 2%;
+        top: 2%;
+        bottom: 2%;
+    }
+
+    .compatible p {
+        font-size: 1rem;
+    }
+}
+@supports (-webkit-touch-callout: none) {
+    .container {
+        display: flex;
+    }
+  }
 
 body {
     text-align: center;
