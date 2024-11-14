@@ -67,7 +67,12 @@ button:active {
     font-style: italic;
 }
 
-img {
-    width: 100%;
+
+.Logo {
+    height: 50vmin;
+}
+
+.Location {
+    width: 80vw;
     height: auto;
 }
