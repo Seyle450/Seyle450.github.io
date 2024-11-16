@@ -97,8 +97,7 @@ h3 {
     height: 30vh;
     width: 30vh;
     border-radius: 100%;
-    
-    margin-left: auto;
+    margin-left: calc(66vw - 60vh);
     margin-right: 16vw;
 
     display: flex;
