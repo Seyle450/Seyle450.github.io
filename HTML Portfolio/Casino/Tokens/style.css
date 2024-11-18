@@ -8,50 +8,33 @@ body {
     user-select: none; /* Standard syntax */
     
 }
-
-.first {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: relative;
-}
-
-.token {
-    color: #6E0E0E;
-    position: absolute;
-    left: 3%;
-}
 h1 {
     color: #6E0E0E;
+    text-align: center;
     font-family: Georgia, Times, 'Times New Roman', serif;
-    font-size: 80px;
-    margin: 10px;
-}
-.link {
-    position: absolute;
-    right: 3%;
+    font-size: 15vw;
+    margin: 0px;
 }
 
 button {
     color: #6E0E0E;
     background-color: #BB9277;
-    border-color: #6E0E0E;
-    border-style: solid;
     font-family: Georgia, Times, 'Times New Roman', serif;
     font-weight: bold;
-    font-size: 20px;
+    font-size: 5vw;
     cursor:pointer;
+    border-color: #6E0E0E;
+    border-style: solid;
+    padding: 2vmin;
+    margin: 2vmin;
 }
-.Home {
-    height: 6vh;
-    width: 13vw;
-}
+div {
+text-align: center;}
+
 hr {
-    color: gray;
-    width: 40%;
-    margin-bottom: 20px;
+    border: 1px solid #6E0E0E;
+    background-color: #6E0E0E;
 }
-
-
-
-
+.hl {
+    width: 50vw;
+}
