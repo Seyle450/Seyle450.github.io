@@ -1,7 +1,9 @@
 body {
     background-color: #CA5508;
     margin: 0;
+    padding: 0;
     overflow-x: hidden;
+    text-align: left;
     font-family: kumbh-sans, Amiko, Armata, Helvetica;
 }
 .bg {
@@ -67,106 +69,53 @@ body {
     transform: translate(0, -11px) rotate(45deg);
   }
 
-.Box {
-    background-color: #ffffff9a;
-    backdrop-filter: blur(10px);
-    border-radius: 20px;
-    width: 50vw;
-    margin-left: 3vmin;
-    margin-top: 3vmin;
-    box-shadow:  5px 5px 20px #0000004b;
-    padding: 3vw;
-    height: 45vh;
-    
-}
-h4,h1,h2,h3 {
-    color: #000;
-    margin: 0;
-    font-size: 2vmin;
-}
-h1 {
+  h1 {
     margin-bottom: 15px;
-    color: #CA5508;
+    color: #ffffff;
     font-size: 5vmin;
+    font-weight: 800;
+    margin-left: 15vw;
 }
-h2 {
-    font-weight: 400;
-    font-size: 3.8vmin;
-}
-h2 span {
-    color: #CA5508;
-    font-weight: 600;
-}
-h3 {
-    font-weight: 500;
-    font-size: 2.5vmin;
-}
-p {
-    font-size: 3.4vmin;}
-p .n1 {
-    font-weight: 600;
-}
-p .n2 {
-    color: #CA5508;
-}
-
-.img {
-  margin-inline: auto;
-  height: 60vmin;
-  width: auto;
-  margin-top: 0;
-  
-}
-.container {
-  display: flex;
-}
-button {
-  background-color: #ffffffc9;
-  width: 24vw;
-  height: 8vmin;
-  margin-inline: 1vw;
-  border: 0;
-  border-radius: 1vmin;
-  box-shadow:  5px 5px 20px #0000004b;
-  font-size: 3vmin;
-  font-weight: 600;
-  color: #CA5508;
-}
-.buttons {
-  padding-inline: 8%;
-  margin-top: 5vmin;
-  position: absolute;
-  bottom: 10vmin;
-}
-@media screen and (max-width: 750px) {
-  .buttons {
-    width: min-content;
-    position: relative;
-    margin-inline: auto;
-  }
-  button  {
-    width: 40vw;
-    margin: 3vmin;
-    
-  }
-  h2 {
-    font-size: 3vmin;
-  }
-  .container {
-    display: block;
-    text-align: center;
-    
-    
-  }
-  .img {
-    height: 90vw;
-  }
-  .Box {
+hr {   
+    color: white;
     width: 70vw;
-    height: fit-content;
+    border: 2px solid white;
+    border-radius: 5px;
+    margin: 0;
     margin-inline: auto;
-    margin-bottom: 10vmin;
-    }
-    .show {display: block;}
-    .remove {display: none;}
+}
+.Name {
+    color: #ffffff;
+    font-size: 2.5vmin;
+    font-weight: 800;
+    padding-right: 3vw;
+}
+.inhalt {
+    color: #ffffff;
+    font-size: 2vmin;
+    font-weight: 500;
+    margin-left: 15vw;
+}
+.Platz {
+    width: 15vw;
+}
+table {
+    margin-left: 15vw;
+    margin-top: 2vmin;
+    border-collapse: collapse;
+    width: 70vw;
+}
+.vl {
+    height: 50vh;
+    position: absolute;
+    border: #ffffff solid 0.4vmin;
+    left: 12vw;
+    top: 15vmin;
+    border-radius: 50px;
+}
+.home {
+    position: absolute;
+    left: 0vmin;;
+    bottom: 3vmin;
+    width: 10vmin;
 }
