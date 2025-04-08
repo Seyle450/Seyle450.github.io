@@ -2,116 +2,66 @@ body {
     background-color: #DEBDA4;
     font-family: Georgia, Times, 'Times New Roman', serif;
     font-weight: bold;
-    overflow-x: hidden;
+    
     -webkit-user-select: none; /* Safari */
     -ms-user-select: none; /* IE 10 and IE 11 */
     user-select: none; /* Standard syntax */
+    
 }
 
+.first {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.token {
+    color: #6E0E0E;
+    position: absolute;
+    left: 3vw;
+    font-size: 3vw;
+}
 h1 {
     color: #6E0E0E;
-    text-align: center;
     font-family: Georgia, Times, 'Times New Roman', serif;
-    font-size: 80px;
+    font-size: 10vw;
     margin: 10px;
 }
+.link {
+    position: absolute;
+    right: 3%;
+}
 
+button {
+    color: #6E0E0E;
+    background-color: #BB9277;
+    border-color: #6E0E0E;
+    border-style: solid;
+    font-family: Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+    font-size: 3vw;
+    cursor:pointer;
+}
+.Home {
+    height: 6vmin;
+    width: 13vw;
+}
 hr {
     color: gray;
     width: 40%;
     margin-bottom: 20px;
 }
-
-a {
-    text-decoration: none;
-}
-h2:hover {
-    color: #560808;
-}
-
-button {
-    border-color: #6E0E0E;
-    border-style: solid;
-}
-.money {
-    display: none;
-}
-
-#Tokens {
-    display: flex;
+.middle {
+    color: #6E0E0E;
     font-family: Georgia, Times, 'Times New Roman', serif;
-    font-weight: bold;
-    flex-wrap: wrap; /* Ermöglicht den Umbruch */
-    width: 100vw;
-    justify-content: space-between; /* Platziert die Elemente gleichmäßig */
-    align-items: center; /* Vertikale Zentrierung */
-} 
-.button {
-    color: #6E0E0E;
-    background-color: #BB9277;
-    border-color: #6E0E0E;
-    border-style: solid;
-    font-family: Georgia, Times, 'Times New Roman', serif;
-    font-weight: bold;
-    font-size: 20px;
-    width: 100%;
-    height: 40px;
-    cursor:pointer;
-}
-.link {
-    width: 20%;
-    margin: auto;
-}
-.link2 {
-    display: flex; /* Aktiviert Flexbox */
-    justify-content: center; /* Horizontale Zentrierung */
-    align-items: center; /* Vertikale Zentrierung */
-    width: 100%; /* Passt sich an den Container an */
-    height: 100%; /* Passt sich an den Container an */
-    color: #6E0E0E;
-    text-decoration: none;
-    font-size: 20px; /* Gleiche Schriftgröße wie die Container */
-}
-
-.token {
-    color: #6E0E0E;
-    width: 35vw;
-    font-size: 3.5vw;
+    font-size: 3vw;
+    margin: 10px;
     text-align: center;
-    font-weight: bold;
-    margin-inline: 5vw;
-}
-
-
-
-
-
-#games {
-    margin-top: 50px;
-    display: flex;
-    flex-wrap: wrap;
-    flex-grow: 1;
-    
-}
-.c1,.c2 {
-    display: flex;
-    text-align: center;
-    vertical-align: middle;
-    color: #6E0E0E;
     background-color: #BB9277;
-    flex-basis: 150px;
-    height: 15vmin;
-    margin: 1vmin;
-    font-family: Georgia, Times, 'Times New Roman', serif;
-    font-weight: bold;
-    font-size: 20px;
-    cursor:pointer;
-    flex-grow: 1;
-    border: 2px solid #6E0E0E;
-}
-.c2 {
-    color: #6E0E0E;
-    background-color: #A77B5F;
+    border: #6E0E0E solid;
+    padding: 4%;
+    margin-top: 25vh;
 }
 
 footer {
@@ -124,6 +74,7 @@ footer {
     left: 0;
     margin: 0;
     padding-block: 10px;
+    border: #560808 solid 2px;
 }
 
 .footer {
@@ -136,24 +87,26 @@ footer {
     width: 40vw;
     height: 10vh;
     margin-inline: 5vw;
+    background-color: #a07357;
+    border-radius: 5px;
+    font-size: 1vmin;
 }
-
+.footer h2 {
+    font-size: 15px;
+    font-family: Georgia, Times, 'Times New Roman', serif;
+    color: #6E0E0E;
+    margin: 1vh;
+    
+}
+a {
+    text-decoration: none;
+}
 .vl {
     position: relative; /* Von absolut zu relativ geändert */
     align-self: center; /* Zentriert die Linie innerhalb von Flexbox */    height: 80%; /* Höhe der Linie */
     background-color: #6E0E0E;
     width: 3px; /* Breite der Linie */
 }
-h1 {
-    font-size: 15vw;
-}
-h2 {
-    font-size: 15px;
-    font-family: Georgia, Times, 'Times New Roman', serif;
-    color: #6E0E0E;
-    margin: 1vh;
-}
-
 @media (max-width:500px){
     .hider {
         display: none;
@@ -182,5 +135,7 @@ h2 {
         font-size: 3.5vw;
         margin-inline: 0; /* Entfernt den horizontalen Abstand */
     }
+
 }
+
 

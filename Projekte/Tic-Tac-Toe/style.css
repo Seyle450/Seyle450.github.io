@@ -78,14 +78,14 @@ table {
     aspect-ratio: 1;
 }
 .more {
-    font-size: 2.5vmin;
-    vertical-align: middle;
-    margin-top: 0.7vh;
+    font-size: 3vmin;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     background-color: rgb(176, 176, 176);
     border-color: rgb(203, 203, 203);
     border-style:solid;
-    width: 30%;
-    height: 70%;
+    width: 30vmin;
+    height: 5vh;
+    margin-top: 2.3vh;
     
 }
 .more:hover {
@@ -107,11 +107,10 @@ table {
 footer {
     position: absolute;
     width: 100vw;
-    height: 5vh;
+    height: 10vh;
     background-color: rgba(32, 32, 32, 0.398);
     bottom: 0;
     left: 0;
-
 }
 
 .x {
