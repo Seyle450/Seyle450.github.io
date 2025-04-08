@@ -119,3 +119,21 @@ table {
     bottom: 3vmin;
     width: 10vmin;
 }
+
+a {
+    text-decoration: none;
+    color: #fde1d0;
+    font-weight: 600;
+}
+a:hover {
+    color: #ffffff;
+    text-decoration: underline;
+}
+.links {
+  color: #ffffff;
+  font-weight: 500;
+}
+.links:hover {
+  text-decoration: none;
+  font-style: italic;
+}

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Elyesfolio - Projekte</title>
+    <link rel="stylesheet" href="Projekte.css">
+    <link rel="stylesheet" href="menu.css">
+</head>
+<body>
+    <div class="bg"></div>
+    <img src="Logo.png" alt="">
+
+
+    <section class="Menu">
+        <div id="menu" class="MenuScreen hide">
+        <div class="menuItem">
+          <a href="index.html"><p class="MenuText hide"><span class="num">01</span> HOME</p></a>
+          <a href="Projekte.html"><p class="MenuText hide"><span class="num">02</span> PROJEKTE</p></a>
+          <a href="Lebenslauf.pdf"><p class="MenuText hide"><span class="num">03</span> LEBENSLAUF</p></a>
+          <a href="Kontakt.html"><p class="MenuText hide"><span class="num">04</span> KONTAKT</p></a>
+        </div>
+  
+      </div>
+      <div class="menu" onclick="myFunction(this)">
+          <div class="bar1"></div>
+          <div class="bar2"></div>
+          <div class="bar3"></div>
+        </div>
+        
+        <script>
+        function myFunction(x) {
+          x.classList.toggle("change");
+          menu.classList.toggle("hide");
+          const texts = document.querySelectorAll(".MenuText");
+          texts.forEach(el => el.classList.toggle("hide"));
+        }
+        </script>
+      </section>
+</body>
+</html>

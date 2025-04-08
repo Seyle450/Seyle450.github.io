@@ -40,32 +40,9 @@ body {
     margin-left: 3vmin;
     width: 15vmin;
   }
-  .menu {
-    display: inline-block;
-    cursor: pointer;
-    position: fixed;
-    right: 3vmin;
-    top: 3vmin;
-  }
   
-  .bar1, .bar2, .bar3 {
-    width: 35px;
-    height: 5px;
-    background-color: #ffffff;
-    margin: 6px 0;
-    border-radius: 5px;
-    transition: 0.4s;
-  }
   
-  .change .bar1 {
-    transform: translate(0, 11px) rotate(-45deg);
-  }
-  
-  .change .bar2 {opacity: 0;}
-  
-  .change .bar3 {
-    transform: translate(0, -11px) rotate(45deg);
-  }
+
 
 .Box {
     background-color: #ffffff9a;
