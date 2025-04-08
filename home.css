@@ -66,6 +66,11 @@ button {
   font-weight: 600;
   color: #CA5508;
 }
+button:hover {
+  background-color: #CA5508;
+  color: #fff;
+  transition: all 0.2s ease-in-out;
+}
 .buttons {
   padding-inline: 8%;
   margin-top: 5vmin;
