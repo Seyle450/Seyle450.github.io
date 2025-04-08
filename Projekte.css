@@ -40,3 +40,30 @@ img {
     margin-left: 3vmin;
     width: 15vmin;
 }
+
+h1 {
+    font-size: 3vmin;
+    color: #fff;
+    margin-top: 3vmin;
+    margin-left: 3vmin;
+    text-align: center;
+}
+h2 {
+    font-size: 2vmin;
+    color: #ffeee4;
+    margin-top: 3vmin;
+    margin-left: 3vmin;
+    width: 20vw;
+    text-align: center;
+    margin-inline: auto;}
+h2:hover {
+    color: #fff;
+    text-decoration: underline;
+    cursor: pointer;
+    border: #ffeee4 1px solid;
+    width: 20vw;
+    border-radius: 5px;
+    padding: 0.5vmin;
+    background-color: #CA5508;
+    transition: all 0.3s ease-in-out;
+}
