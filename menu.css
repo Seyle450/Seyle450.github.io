@@ -30,10 +30,9 @@
     background-image: radial-gradient(#ffffff 1.3px, #CA5508 1.3px);
     background-size: 26px 26px;
     width: 100vw;
-    height: 200vh;
+    height: 100vh;
     transition: 500ms;
-    overflow: hidden;
-  }
+   }
   .MenuText {
     font-size: 5vmin;
     color: #ffffff;
