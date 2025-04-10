@@ -4,23 +4,115 @@ h1 {
     margin-top: 3vmin;
     margin-left: 3vmin;
     text-align: center;
+    text-align: left;
+    font-weight: 500;
+    font-size: 2.8vmin;
+    margin-block: 1vmin;
+    transition: 500ms;
 }
 h2 {
     font-size: 2vmin;
     color: #ffeee4;
-    margin-top: 3vmin;
     margin-left: 3vmin;
     width: 20vw;
-    text-align: center;
-    margin-inline: auto;}
-h2:hover {
+    font-size: 3.5vmin;
+    text-align: left;
+}
+
+
+.Projekt {
+    position: absolute;
+    top: 35vh;  
+    left: 5vmin;
+    width: 40vw;
+    height: 20h;
+    
+}
+.vl {
+    border-left: 1px solid #fff;
+    height: 50vh;
+    position: absolute;
+    left: 50%;
+    top: 20vh;
+    transform: translateX(-50%);
+}
+.Projekte {
+    position: absolute;
+    top: 20vh;
+    left: 50%;
+    width: 50vw;
+}
+.hl {
+    margin-left: 3vmin;
+    height: 1px;
+    width: 35vw;
+    background-color: #fff;
+}
+.container {
+    display: flex;
+}
+.container h2 {
+    margin-top: 1vh;
+    margin-bottom: 2vh;
+}
+.datum {
+    color: transparent;
+    transition: 200ms;
+}
+.container:hover .typ {
+    color: transparent;
+    transition: 200ms;
+}
+.container:hover .datum {
     color: #fff;
-    text-decoration: underline;
-    cursor: pointer;
-    border: #ffeee4 1px solid;
-    width: 20vw;
-    border-radius: 5px;
-    padding: 0.5vmin;
-    background-color: #CA5508;
-    transition: all 0.3s ease-in-out;
+    transition: 200ms;
+}
+.container:hover h1{
+    transition: 150ms;
+    font-weight: 700;
+    font-size: 3.1vmin;
+}
+h3 {
+    position: relative ;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;    position: absolute;
+    text-align: right;
+    font-size: 2.5vmin;
+    color: #fff;
+    font-weight: 300;
+    margin-left: 25vw;
+    margin-top: 1vmin;
+    width: 12vw;
+    transition: 200ms;
+}
+@media  (max-width: 768px) {
+    .Projekt {
+        display: none;
+    }
+    .Projekte {
+        position:relative;
+        margin-inline: auto;
+        width: 80vw;
+        left: 0;
+        top: 10vh;
+        height: 100vh;
+    }
+    .hl {
+        width: 75vw;
+    }
+    h1 {
+        font-size: 3vmin;
+
+    }
+    h2 {
+        font-size: 4vmin;
+    }
+    h3 {
+        font-size: 2.8vmin;
+        margin-left: 47vw;
+        width: 30vw;
+    }
+    .vl {
+        display: none;
+    }
+    
 }

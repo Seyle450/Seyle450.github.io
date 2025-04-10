@@ -1,5 +1,6 @@
 .show {
-    display: none;}
+    display: none;
+    }
 
 .Box {
     background-color: #ffffff9a;
@@ -49,7 +50,10 @@ p .n2 {
   height: 60vmin;
   width: auto;
   margin-top: 0;
-  z-index: 99999;
+}
+.img:hover {
+  transform: scale(1.02);
+  transition: all 0.2s ease-in-out;
 }
 .container {
   display: flex;
@@ -109,3 +113,4 @@ button:hover {
     .show {display: block;}
     .remove {display: none;}
 }
+
