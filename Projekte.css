@@ -1,3 +1,4 @@
+
 h1 {
     font-size: 3vmin;
     color: #fff;
@@ -21,14 +22,7 @@ h2 {
 }
 
 
-.Projekt {
-    position: absolute;
-    top: 35vh;  
-    left: 5vmin;
-    width: 40vw;
-    height: 20h;
-    
-}
+
 .vl {
     border-left: 1px solid #fff;
     height: 50vh;
@@ -56,6 +50,16 @@ h2 {
 .datum {
     color: transparent;
     transition: 200ms;
+}
+.container .Projekt {
+    pointer-events: none;
+    opacity: 0;
+    transition: cubic-bezier(0.4, 0, 0.2, 1) 200ms;
+}
+.container:hover .Projekt {
+    pointer-events: auto;
+    opacity: 1;
+    transition: cubic-bezier(0.4, 0, 0.2, 1) 200ms;
 }
 .container:hover .typ {
     color: transparent;
@@ -118,5 +122,13 @@ h3 {
     .vl {
         display: none;
     }
+    
+}
+.Projekt {
+    position: fixed;
+    top: 35vh;  
+    left: 5vmin;
+    width: 40vw;
+    height: 20h;
     
 }
