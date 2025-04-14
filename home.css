@@ -80,6 +80,11 @@ button:hover {
   color: #fff;
   transition: all 0.2s ease-in-out;
 }
+button:active {
+  transform: scale(0.9);
+  transition: all 0.05s ease-in-out;
+
+}
 .buttons {
   padding-inline: 8%;
   margin-top: 5vmin;
