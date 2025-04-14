@@ -39,8 +39,10 @@
     margin-left: 3vmin;
     margin-top: 3vmin;
     font-weight: 800;
-    text-decoration: none;
+
+    user-select: none;
   }
+  
   .num {
     font-size: 3vmin;
     font-weight: 500;
@@ -54,16 +56,20 @@
     height: 100%;
     
   }
-  .hide {
+  .Menu .hide {
     top: -100vh;
     height: 0px;
     color: transparent;
     transition: 500ms;
   }
-  a{text-decoration: none;
+  .Menu a{text-decoration: none;
     color: #ffffff;
   } 
-  a:hover {
+  .Menu a:hover {
     text-decoration: underline;
     transition: 500ms;
+  }
+  .Menu a:active {
+    transform: scale(0.8);
+    transition: 100ms ease-in-out;
   }

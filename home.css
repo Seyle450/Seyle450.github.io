@@ -19,6 +19,9 @@ h4,h1,h2,h3 {
     margin: 0;
     font-size: 2vmin;
 }
+a {
+    text-decoration: none;
+}
 a:hover {
     text-decoration: none;
     text-shadow: #000000 0px 0px 1px;
