@@ -55,12 +55,17 @@ p .n2 {
 
 .img {
   margin-inline: auto;
-  height: 60vmin;
+  height: 50vmin;
   width: auto;
-  margin-top: 0;
+  margin-top: 5vmin;
+  border-radius: 15px;
 }
 .img:hover {
-  transform: scale(1.02);
+  transform: scale(1.05);
+  transition: all 0.2s ease-in-out;
+}
+.imgcontainer:hover {
+  transform: scale(1.05);
   transition: all 0.2s ease-in-out;
 }
 .container {
@@ -114,8 +119,11 @@ button:active {
     
     
   }
-  .img {
-    height: 90vw;
+    .img {
+    width: 100%; height: auto; margin-top: 0px;
+  }
+  .imgcontainer {
+    display: inline-block; position: relative; width: 50vmin; height: 50vmin; overflow: hidden; border-radius: 50%;
   }
   .Box {
     width: 70vw;
